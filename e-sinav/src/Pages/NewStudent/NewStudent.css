@@ -1,0 +1,38 @@
+.content3{
+    display: flex;
+    justify-content: space-around;
+}
+.settings3{
+    width: 75%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins" ,sans-serif;
+    font-weight: 300;
+}
+.settings3_select {
+    display: flex;
+    flex-direction: column;
+    outline:auto;
+    padding: 15px;
+    
+    width: 70%;
+    flex: 1;
+    justify-content: space-evenly;
+    font-size: larger;
+  }
+
+  .field4 {
+    width: 100%;
+    height: 50px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+    border-radius: 4px;
+    margin:2px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+  }

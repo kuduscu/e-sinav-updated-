@@ -1,0 +1,23 @@
+
+
+.new-expense1 {
+    background-color: #ffffff;
+    padding: 2.3rem;
+    font-family:"Montserrat" ,sans-serif;
+    font-weight: bold;
+    margin: 13rem ;
+    width: 60%;
+    font-size: 21px;
+    max-width: 60%;
+    margin-top:9rem;
+    margin-left: 18rem;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+
+ .ogrenciNot{
+  font-family:"Montserrat" ,sans-serif;
+   font-size: 28px;
+   font-weight: bolder;
+ } 

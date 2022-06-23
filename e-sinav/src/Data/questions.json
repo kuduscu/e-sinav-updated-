@@ -1,0 +1,593 @@
+{
+    "response_code": 0,
+    "results": [
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Text'i nasıl kalınlaştırırsınız?",
+        "correct_answer": "font-weight:bold;",
+        "incorrect_answers": ["font:bold;", "style:bold;" ]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "CSS'in açılımı nedir?",
+        "correct_answer": "Cascading Style Sheets  ",
+        "incorrect_answers": ["Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Stil sayfası tanımlamada kullanılan HTML etiketi nedir?",
+        "correct_answer": "<style>",
+        "incorrect_answers": ["<css>", "<script>"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Doğru CSS kullanımı aşağıdakilerden hangisidir?",
+        "correct_answer": "body {color: black;}",
+        "incorrect_answers": ["{body;color:black;}", "{body:color=black;}", "body:color=black;"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "CSS'in içinde yorum satırı kullanma kodu nedir?",
+        "correct_answer": "/* this is a comment */",
+        "incorrect_answers": ["// this is a comment //", "// this is a comment", "' this is a comment"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Arka plan rengini değiştiren CSS özelliği?",
+        "correct_answer": "background-color",
+        "incorrect_answers": ["bgcolor", "color"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Bir elementin içindeki text rengini değiştiren CSS kodu?",
+        "correct_answer": "color",
+        "incorrect_answers": ["text-color", "fgcolor"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Yazı boyutunu ayarlayan CSS kodu?",
+        "correct_answer": "font-size",
+        "incorrect_answers": ["font-style", "text-style", "text-size"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Padding özelliğini kullanırken negatif değer girilebilir mi?",
+        "correct_answer": "Hayır",
+        "incorrect_answers": ["Evet"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Vize",
+        "question": "Bir elementin yazı tipini değiştiren özellik?",
+        "correct_answer": "font-family",
+        "incorrect_answers": ["font-style", "font-weight"]
+      },
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Bütün <h1> elementleri için arkaplan rengi ayarlayan kod?",
+        "correct_answer": "h1 {background-color:#FFFFFF;}",
+        "incorrect_answers": ["h1.all {background-color:#FFFFFF;}", "all.h1 {background-color:#FFFFFF;}"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Bütün <p> elementlerinin yazı kalınlığını bold yapan CSS?",
+        "correct_answer": "p {font-weight:bold;}",
+        "incorrect_answers": ["<p style='text-size:bold;'>", "<p style='font-size:bold;'>", "p {text-size:bold;}"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Bir text'teki harflerin hepsini büyük harfe çeviren CSS?",
+        "correct_answer": "text-transform:capitalize",
+        "incorrect_answers": ["text-style:capitalize", "You can't do that with CSS", "transform:capitalize"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Hangi özellikler bir elementin kenar boşluğunu ayarlarız?",
+        "correct_answer": "margin-left",
+        "incorrect_answers": ["indent", "padding-left"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Bir listenin item'larını kareler ile listeleyebilmemizi sağlayan CSS?",
+        "correct_answer": "list-style-type: square;",
+        "incorrect_answers": ["list: square;","list-type: square;"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Sınıf adı 'test' olarak verilmiş elementleri nasıl seçeriz?",
+        "correct_answer": ".test",
+        "incorrect_answers": ["#test", "test", "*test"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "ID'si demo olarak tanımlanmış bir elementi nasıl seçeriz?",
+        "correct_answer": "#demo",
+        "incorrect_answers": [".demo", "*demo", "demo"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Position elementinin default değeri nedir?",
+        "correct_answer": "static",
+        "incorrect_answers": ["relative", "fixed", "absolute"]
+      }
+      ,
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Bir div'in içindeki bütün p elementlerini nasıl seçeriz?",
+        "correct_answer": "div p",
+        "incorrect_answers": ["div + p", "div.p"]},
+      {
+        "category": "CSS",
+        "difficulty": "Final",
+        "question": "Altları çizili olmadan link nasıl veririz?",
+        "correct_answer": "a {text-decoration:none;}",
+        "incorrect_answers": ["a {underline:none;}", "a {text-decoration:no-underline;}", "a {decoration:no-underline;}"]
+      },{
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Hangi komut yeni React projesi oluşturur?",
+        "correct_answer": "npx create-react-app myReactApp",
+        "incorrect_answers": ["npx create-react-app", "npm create-react-app myReactApp","npm create-react-app"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "CSS'in açılımı nedir?",
+        "correct_answer": "Cascading Style Sheets  ",
+        "incorrect_answers": ["Creative Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Local server'ı başlatan cmd komutu?",
+        "correct_answer": "npm start",
+        "incorrect_answers": ["npm run dev", "npm serve","npm build"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Local server'ın default olarak kullandığı domain?",
+        "correct_answer": "3000",
+        "incorrect_answers": ["3500", "5000", "8000"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "React projesi yapmak için Node.js gerekli midir?",
+        "correct_answer": "Evet",
+        "incorrect_answers": ["Hayır"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Javascript'te constant yaratan komut?",
+        "correct_answer": "const",
+        "incorrect_answers": ["let", "var","constant"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Bir elementin içindeki text rengini değiştiren CSS kodu?",
+        "correct_answer": "color",
+        "incorrect_answers": ["text-color", "fgcolor"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Hafızada tutulan 'real' DOM nasıl adlandırılır?",
+        "correct_answer": "Virtual DOM",
+        "incorrect_answers": ["DOM", "Shadow DOM", "React DOM"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "Padding özelliğini kullanırken negatif değer girilebilir mi?",
+        "correct_answer": "Hayır",
+        "incorrect_answers": ["Evet"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Vize",
+        "question": "React'te component'lara verdiğimiz isimler büyük harfle başlamalıdır.",
+        "correct_answer": "Doğru",
+        "incorrect_answers": ["Yanlış"]
+      },
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "Hangisi React uygulamaları yazarken beraber kullanılan bileşenlerden değildir?",
+        "correct_answer": "Phyton",
+        "incorrect_answers": ["CSS", "HTML", "JavaScript"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "React componentlerini belli durumlara göre render'layan operatör?",
+        "correct_answer": "&&",
+        "incorrect_answers": ["||", "??", "::"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "map() metodu kullanarak liste renderlarken, tüm elemanların renderlanması için neye ihtiyacımız vardır?",
+        "correct_answer": "key",
+        "incorrect_answers": ["id", "data", "index"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "Bu component'te '<Car {...props} />' hangi props'lar aktiftir?",
+        "correct_answer": "hepsi",
+        "incorrect_answers": ["Verilmiş prop'lar", "Children prop'lar","Statik prop'lar"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "Ref'in yaygın kullanımı nedir?",
+        "correct_answer": "DOM'daki node'lara direk erişmede kullanılır",
+        "incorrect_answers": ["Bir fonksiyona referans olarak","Bir fonksiyona bağlanma","Başka bir JS dosyasına referans"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "array1 ve array 2 isimli array'lerin elemanlarını birbirine nasıl bağlarız?",
+        "correct_answer": "const combined = [...array1, ...array2];",
+        "incorrect_answers": ["const combined = ...array1 + ...array2;", "const combined = array1 + array2;", "const combined = [array1, array2];"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "hangisi bir React componentini doğru bir şekilde çağırır",
+        "correct_answer": "import { Component } from 'react'",
+        "incorrect_answers": ["import [ Component ] from 'react'", "import Component from 'react'", "import React.Component from 'react'"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "React'in JSC dosyalarını derlerken kullandığı tool?",
+        "correct_answer": "Babel",
+        "incorrect_answers": ["JSX Compiler", "ReactDOM", "React Router"]
+      }
+      ,
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "'npx create-react-app myReactApp' Burada myReactApp in görevi nedir?",
+        "correct_answer": "Oluşturduğumuz projenin adıdır",
+        "incorrect_answers": ["Oluşturmak istediğimiz uygulamanın türü", "Uygulamayı oluşturmak istediğimiz dosyanın adı"]},
+      {
+        "category": "React",
+        "difficulty": "Final",
+        "question": "useNavigate ve Router ın bulunduğu React kütüphanesi?",
+        "correct_answer": "react-router-dom",
+        "incorrect_answers": ["Format JS", "Material UI", "Gestalt"]
+      }
+      ,{
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "HTML'in açılımı nedir",
+        "correct_answer": "Hyper Text Markup Language",
+        "incorrect_answers": ["Home Tool Markup Language", "Hyperlinks and Text Markup Language" ]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Web standartlarını ... oluşturur?",
+        "correct_answer": "The World Wide Web Consortium",
+        "incorrect_answers": ["Microsoft", "Google", "Mozilla"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Stil sayfası tanımlamada kullanılan HTML etiketi nedir?",
+        "correct_answer": "<style>",
+        "incorrect_answers": ["<css>", "<script>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "En büyük önemi taşıyan HTML elementi?",
+        "correct_answer": "<h1>",
+        "incorrect_answers": ["<h6>", "<heading>", "<head>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "O anki satırı kıran HTML elementi nedir??",
+        "correct_answer": "<br>",
+        "incorrect_answers": ["<lb>", "<break>", "<a>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Önemli text'leri tanımlarken kullanılan HTML elementi?",
+        "correct_answer": "<strong>",
+        "incorrect_answers": ["<b>", "<important>","<i>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Vurgulu text tanımlarken kullanılan HTML elementi?",
+        "correct_answer": "<em>",
+        "incorrect_answers": ["<italic>", "<i>", "<a>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Bitiş tagi?",
+        "correct_answer": "/",
+        "incorrect_answers": ["^", "*", "<"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Bir linki yeni tab'de açmak için kullanılan kod hangisinde doğru olarak verilmiştir?",
+        "correct_answer": "<a href='url' target='_blank'>",
+        "incorrect_answers": ["<a href='url' new>","<a href='url' target='new'>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Vize",
+        "question": "Sayılı bir liste tanımalarken kullanılan HTML elementi?",
+        "correct_answer": "<ol>",
+        "incorrect_answers": ["<ul>", "<dl>","<list>"]
+      },
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Checkbox oluşturan doğru HTML hangisidir?",
+        "correct_answer": "<input type='checkbox'>",
+        "incorrect_answers": ["<check>", "<input type='check'>","<checkbox>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Text'li input tanımı hangisinde doğru verilmiştir?",
+        "correct_answer": "<input type='text'>",
+        "incorrect_answers": ["<textfield>", "<textinput type='text'>", "<input type='textfield'>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Text alanı tanımlayan doğru HTML?",
+        "correct_answer": "<textarea>",
+        "incorrect_answers": ["<input type='textbox'>", "<input type='textarea'>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Fotoğraf koyarken kullanılan HTML?",
+        "correct_answer": "<img src='image.gif' alt='MyImage'>",
+        "incorrect_answers": ["<image src='image.gif' alt='MyImage'>", "<img href='image.gif' alt='MyImage'>","<img alt='MyImage'>image.gif</img>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Arka plan dotoğradı koyarken kullanılan HTML?",
+        "correct_answer": "<body style='0background-image:url(background.gif)'>",
+        "incorrect_answers": ["<background img='background.gif'>","<body bg='background.gif'>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Dökümanın başlığını tanımlarken kullanılan HTML elementi?",
+        "correct_answer": "<title>",
+        "incorrect_answers": ["<meta>", "<head>", "<footer>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Video dosyalarını oynatan HTML elementi?",
+        "correct_answer": "<video>",
+        "incorrect_answers": ["<movie>", "<media>", "<mp4>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Ses dosyalarını oynatan HTML elementi?",
+        "correct_answer": "<audio>",
+        "incorrect_answers": ["<mp3>", "<sound>", "<mp4>"]
+      }
+      ,
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "SVG uzantılı grafikler hangi formattadır?",
+        "correct_answer": "XML",
+        "incorrect_answers": ["CSS", "HTML"]},
+      {
+        "category": "HTML",
+        "difficulty": "Final",
+        "question": "Bir döküman veya bir bölüme başlık tanımlamada kullanılan element?",
+        "correct_answer": "<header>",
+        "incorrect_answers": ["<head>", "<section>", "<top>"]
+      }
+      ,{
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "JavaScript büyük harf duyarlı mıdır?",
+        "correct_answer": "Evet",
+        "incorrect_answers": ["Hayır" ]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "Hangi HTML elementinin içine JavaScript kodlarız?",
+        "correct_answer": "<script>",
+        "incorrect_answers": ["<scripting>", "<javascript>", "<js>"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "JavaScripti yerleştirebileceğimiz doğru alan hangisidir?",
+        "correct_answer": "<head> ve <body> alanlarının ikisine de",
+        "incorrect_answers": ["<body> alanı", "<head> alanı","Hiçbiri"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "Bir uyarı kutusunun içine 'Hello World' yazımı?",
+        "correct_answer": "alert('Hello World');",
+        "incorrect_answers": ["msg('Hello World');", "msgBox('Hello World');", "alertBox('Hello World');"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "JavaScriptin içinde bir fonksiyon nasıl yaratılır?",
+        "correct_answer": "function myFunction()",
+        "incorrect_answers": ["function = myFunction()", "function:myFunction()"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "myFunction isimli fonksiyonu çağırırken kullanılan kod?",
+        "correct_answer": "myFunction()",
+        "incorrect_answers": ["call function myFunction()", "call myFunction()"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "JavaScriptte nasıl koşul durumu oluşturulur?",
+        "correct_answer": "if (i == 5)",
+        "incorrect_answers": ["if i == 5 then", "fif i = 5 then","if i = 5"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "if 'i' is NOT equal to 5?",
+        "correct_answer": "if (i != 5)",
+        "incorrect_answers": ["if (i <> 5)", "if i =! 5 then", "if i <> 5"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "While lopp'u nasıl başlar?",
+        "correct_answer": "while (i <= 10)",
+        "incorrect_answers": ["while (i <= 10; i++)","while i = 1 to 10"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Vize",
+        "question": "For loop'u nasıl başlar?",
+        "correct_answer": "for (i = 0; i <= 5; i++)",
+        "incorrect_answers": ["for (i <= 5; i++)", "for (i = 0; i <= 5)","for i = 1 to 5"]
+      },
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "JavaScript'te component yaratma?",
+        "correct_answer": "//This is a comment",
+        "incorrect_answers": ["'This is a comment", "<!--This is a comment-->"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "JS array'i oluşturmanın doğru yolu?",
+        "correct_answer": "var colors = ['red', 'green', 'blue']",
+        "incorrect_answers": ["var colors = 'red', 'green', 'blue'", "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "7.25 değerini en yakın tam sayıya yuvarlama?",
+        "correct_answer": "Math.round(7.25)",
+        "incorrect_answers": ["Math.rnd(7.25)", "round(7.25)", "rnd(7.25)"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "x ve y olarak tanımlanmış sayıların hangisinin daha yüksek olduğunu bulan kod?",
+        "correct_answer": "Math.max(x, y)",
+        "incorrect_answers": ["Math.ceil(x, y)", "ceil(x, y)","top(x, y)"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "JavaScript Javayla tamamen aynıdır.",
+        "correct_answer": "Yanlış",
+        "incorrect_answers": ["Doğru"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "Alıcının bağlantı adını nasıl öğrenirsin?",
+        "correct_answer": "navigator.appName",
+        "incorrect_answers": ["client.navName", "browser.name"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "HTML elementine tıklandığında çalışan event?",
+        "correct_answer": "onclick",
+        "incorrect_answers": ["onmouseover", "onchange", "onmouseclick"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "Değişkene değer atarken kullanılan operatör?",
+        "correct_answer": "=",
+        "incorrect_answers": ["*", "/", "-"]
+      }
+      ,
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "Bir javascript değişkeni tanımlarken kullanılan kod?",
+        "correct_answer": "var carName;",
+        "incorrect_answers": ["variable carName;", "v carName;"]},
+      {
+        "category": "JavaScript",
+        "difficulty": "Final",
+        "question": "Bu kod ne döndürür:  Boolean(10 > 9)?",
+        "correct_answer": "true",
+        "incorrect_answers": ["NaN", "false"]
+      }
+    ]
+  }
+  

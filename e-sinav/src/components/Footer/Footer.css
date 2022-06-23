@@ -1,0 +1,13 @@
+.footer{
+    text-align: center;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+
+
+
+/*Image'ın boyu yazıya uygun şekilde düzenlendi*/
+.githubImg {
+    width: 1.8%;
+    align-self: center;
+  }

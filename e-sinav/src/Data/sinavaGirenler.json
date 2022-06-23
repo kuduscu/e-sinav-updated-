@@ -1,0 +1,29 @@
+{
+  "atamalar": [
+    {
+      "mail": "aysebanu@trakya.edu.tr",
+      "ders": "CSS",
+      "sinav": "Final"
+    },
+    {
+      "mail": "cerenmelek@trakya.edu.tr",
+      "ders": "CSS",
+      "sinav": "Vize"
+    },
+    {
+      "mail": "kerimyun@trakya.edu.tr",
+      "ders": "React",
+      "sinav": "Vize"
+    },
+    {
+      "mail": "hasantegmen@trakya.edu.tr",
+      "ders": "JavaScript",
+      "sinav": "Final"
+    },
+    {
+      "mail": "sedefcicek@trakya.edu.tr",
+      "ders": "HTML",
+      "sinav": "Vize"
+    }
+  ]
+}

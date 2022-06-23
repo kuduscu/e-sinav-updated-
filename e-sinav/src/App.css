@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200;300&display=swap');
+
+/* montserrat fontunu google'dan indirdim */
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+a{
+  text-decoration: inherit;
+  color:inherit;
+}
+/*
+    vp->viewport height = sayfanın boyu
+*/
+.app{
+  min-height: 96.5vh;
+  border:5px solid #0641ef93;
+  margin:2px;
+  padding:1px;
+}
+
+
+/*kaydırma çubuğunu değiştirdim*/
+*::-webkit-scrollbar{
+  width:1px;
+  background-color: grey;
+}

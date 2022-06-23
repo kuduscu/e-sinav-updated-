@@ -1,0 +1,60 @@
+.content6{
+    display: flex;
+    justify-content: space-around;
+}
+/*
+        display: flex;
+        flex-direction: column;
+
+        display flex olucak flex yönü de yukarıdan aşağıya
+*/
+.settings6{
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins" ,sans-serif;
+    font-weight: 300;
+}
+.settings6_select {
+    display: flex;
+    flex-direction: column;
+    outline:auto;
+    padding: 19px;
+    width: 93%;
+    flex: 1;
+    justify-content: space-evenly;
+    font-size: larger;
+  }
+  .button-6 {
+    background-color: #00000071;
+    border-radius: 2px;
+    border-style: none;
+    box-sizing: border-box;
+    border: 2px solid #1A1A1A;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    list-style: none;
+    outline: none;
+    padding: 8px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 3.4rem;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    background-color: #ff0000a2;
+  }

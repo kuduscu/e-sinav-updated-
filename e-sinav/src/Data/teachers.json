@@ -1,0 +1,31 @@
+{
+    "response_code": 0,
+    "akademisyenler": [
+      {
+        "akademisyenAdi": "Cem",
+        "akademisyenSifre": "cem1",
+        "akademisyenNo": "01"
+      },
+      {
+        "akademisyenAdi": "Deniz",
+        "akademisyenSifre": "deniz1",
+        "akademisyenNo": "02"
+      },
+      {
+        "akademisyenAdi": "Kerim",
+        "akademisyenSifre": "kerim1",
+        "akademisyenNo": "03"
+      },
+      {
+        "akademisyenAdi": "Tamer",
+        "akademisyenSifre": "tamer1",
+        "akademisyenNo": "04"
+      },
+      {
+        "akademisyenAdi": "Sevim",
+        "akademisyenSifre": "sevim1",
+        "akademisyenNo": "05"
+      }
+    ]
+  }
+  

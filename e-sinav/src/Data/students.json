@@ -1,0 +1,31 @@
+{
+    "response_code": 0,
+    "ogrenciler": [
+      {
+        "isim": "Sercan",
+        "sifre": "sercan1",
+        "ogrenciNo": "55"
+      },
+      {
+        "isim": "Ahmet",
+        "sifre": "ahmet1",
+        "ogrenciNo": "11"
+      },
+      {
+        "isim": "Mehmet",
+        "sifre": "mehmet1",
+        "ogrenciNo": "22"
+      },
+      {
+        "isim": "Banu",
+        "sifre": "banu1",
+        "ogrenciNo": "33"
+      },
+      {
+        "isim": "Sevda",
+        "sifre": "sevda1",
+        "ogrenciNo": "44"
+      }
+    ]
+  }
+  

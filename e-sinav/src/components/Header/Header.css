@@ -1,0 +1,29 @@
+
+/*
+    .title kısmında yazılan textler büyük harfe dönüştürülüyor
+    font size 8 viewport width yani ekranın büyüklüğü(%80)
+
+*/
+
+.title{
+    /*text-transform: uppercase;*/
+    font-size:4vw;
+    font-family:"Montserrat" ,sans-serif;
+    cursor:pointer;
+    align-items: center;
+    font-weight: bolder;
+}
+
+/*
+    .flex-direction:column   ekranın yukarıdan aşağıya doğru sergileneceğini söylüyor 
+*/
+.header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.divider{
+    margin:10px;
+    width:100%;
+    background-color: black;
+}
